@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+
+.header{
+    font-family: 'Mountains of Christmas', cursive;
+    margin-left:15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.container{
+    background-color: rgb(240,240,240);
+    width: 100vw;
+    margin: auto;
+    height: 100%;
+}
+.smallContainer{    
+    width: 40vw;
+    height: inherit;
+    margin: auto;
+    /* border: 1px solid rgb(134, 132, 132); */
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin:10px auto;
+    width: 30vw;
+    height: 500px;
+    width: 400;
+    height: inherit;
+    border-radius: 10px;
+}
+.card-img{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: inherit;
+}
+.img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.card-body{
+    height: inherit;
+    margin: 15px;
+}
+.logo{
+    font-size: 35px;
+    margin: 5px 8px 10px 0px;
+    cursor: pointer;
+}
+.heart{
+    color: black;
+}
+.heart:hover{
+    color: red;
+}
+.delete:hover{
+    color: red;
+}
+.edit:hover{
+    color: green;
+}
+.logo-actions{
+    margin: 0%;
+    padding: 0%;
+}
+.card-captions{
+    margin: 0%;
+    padding-bottom:5%;
+}
+.addBtn{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.addBtn:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.category{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.timeDate{
+    font-size:15px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .card-captions{
+        font-size: 15px;
+    }
+    .addBtn{
+        font-size: 18px;
+        border-radius: 10px;
+        padding: 5px 10px;
+    }
+    .smallContainer{
+        width: 80vw;
+    }
+    .card{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card-captions{
+        font-size: 13px;
+    }
+    .smallContainer{
+        width: 95vw;
+    }
+    .card{
+        width: 90vw;
+    }
+}
+
+
+
+
+
+ 
